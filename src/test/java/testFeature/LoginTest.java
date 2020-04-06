@@ -32,4 +32,10 @@ public class LoginTest
 		l1.login_with_InvalidUN_Invalid_PWD();
 	}
 	
+	@Test(priority=5)
+	public void tc05()
+	{
+		l1.sayHello();
+	}
+	
 }

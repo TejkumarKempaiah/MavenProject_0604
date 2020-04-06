@@ -21,4 +21,9 @@ public class Login
 	{
 		System.out.println("--Login Failed--");
 	}
+	
+	public void sayHello()
+	{
+		System.out.println("--Hello World--");
+	}
 }
